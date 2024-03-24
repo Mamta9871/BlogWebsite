@@ -1,0 +1,44 @@
+/* Blog.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .Container {
+    position: relative;
+    
+  }
+
+  
+  .Blog {
+    text-align: center;
+    margin-top: 5px;
+    margin: 10px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 8%;
+    border-color: green;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    color: black;
+  }
+  
+.Image{
+   
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    height: 30vh;
+  }
+
+.BlogItem{
+    margin-top: 5px;
+    margin-left: 5px;
+}

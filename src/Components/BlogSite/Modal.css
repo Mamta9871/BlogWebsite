@@ -1,0 +1,39 @@
+.Modal-Container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.Modal{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30rem;
+    padding:1rem 6rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: last baseline;
+    z-index: 1000;
+
+}
+
+.Modal input{
+    margin-right: 50%;
+}
+
+.btn{
+    justify-content: space-between;
+}
+
+.btn button{
+    margin-top: 5%;
+    margin-right: 1rem;
+}
